@@ -4,8 +4,8 @@
 
 #### 功能
 
-[x] render
-[x] createElement
-[ ] hooks state
-[ ] fiber
-[ ] diff
+- [x] render
+- [x] createElement
+- [ ] hooks state
+- [ ] fiber
+- [ ] diff
