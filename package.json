@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "mini-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run build && serve dist -p 3000",
+    "build": "esno scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.11.6",
+    "esbuild": "^0.13.12",
+    "esbuild-plugin-less": "^1.1.5",
+    "esno": "^0.11.0",
+    "fs-extra": "^10.0.0",
+    "serve": "^12.0.1"
+  }
+}
